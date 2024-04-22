@@ -21,5 +21,8 @@ mod tests {
     }
 
     #[test]
+    fn test_cell_id_to_lat_lon_works() {
+        assert_eq!(cell_id_to_lat_lon_one_point(5095047777373650944), (55.96197598047027, 37.35753533375114));
+    }
     
 }
